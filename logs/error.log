@@ -1,0 +1,2633 @@
+2024-05-16 04:39:18 error: [Cake\Http\Exception\MissingControllerException] Controller class `Add` could not be found. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Add',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /add
+2024-05-16 04:52:37 error: [Cake\Http\Exception\MissingControllerException] Controller class `Create` could not be found. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Create',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /create
+2024-05-16 04:52:39 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/add.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/add.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/add.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/add.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app
+2024-05-16 05:03:41 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/add.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/add.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/add.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/add.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/home
+2024-05-16 05:03:47 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/add.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/add.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/add.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/add.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/home
+2024-05-16 05:04:23 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/add.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/add.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/add.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/add.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/addNewApp
+Referer URL: http://localhost/cube/home
+2024-05-16 05:09:40 error: [Error] Call to undefined method App\View\AppView::extends() in /var/www/html/cube/templates/Home/home.php on line 2
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:17
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home
+Referer URL: http://localhost/cube/home
+2024-05-16 05:29:42 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `panel` could not be found. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `panel`',
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:212
+- /var/www/html/cube/src/Controller/HomeController.php:22
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/
+2024-05-16 05:29:45 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `panel` could not be found. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 250
+Exception Attributes: array (
+  0 => 'for alias `panel`',
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:212
+- /var/www/html/cube/src/Controller/HomeController.php:22
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/
+2024-05-16 05:33:54 error: [TypeError] Cake\ORM\Table::patchEntities(): Argument #1 ($entities) must be of type Traversable|array, App\Model\Entity\Panel given, called in /var/www/html/cube/src/Controller/HomeController.php on line 26 in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php on line 3090
+Stack Trace:
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:35:32 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:37:05 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:39:38 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:43:55 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:51:39 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:52:14 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:31
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 05:53:42 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:25
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:02:36 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:26
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:02:49 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:27
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:05:12 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:05:27 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:05:51 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:13:55 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:14:43 error: [Error] Object of class Laminas\Diactoros\UploadedFile could not be converted to string in /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Type/StringType.php on line 95
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:79
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Marshaller.php:581
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:3056
+- /var/www/html/cube/src/Controller/HomeController.php:29
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:14:49 error: [Error] Call to a member function getSize() on null in /var/www/html/cube/src/Controller/HomeController.php on line 25
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:19:06 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::getFileName() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:19:20 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::getfileName() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:19:29 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::getFilename() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:19:56 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::fileName() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:20:06 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::getFile() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:20:13 error: [Error] Call to undefined method Laminas\Diactoros\UploadedFile::getFilename() in /var/www/html/cube/src/Controller/HomeController.php on line 27
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:29:07 warning: mkdir(): Permission denied
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 30
+App\Controller\HomeController->add() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:07 error: [Laminas\Diactoros\Exception\UploadedFileErrorException] The target directory `/var/www/html/cube/webroot/docs` does not exist or is not writable in /var/www/html/cube/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 33
+Stack Trace:
+- /var/www/html/cube/vendor/laminas/laminas-diactoros/src/UploadedFile.php:147
+- /var/www/html/cube/src/Controller/HomeController.php:33
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:29:07 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:07 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:07 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:07 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:25 warning: mkdir(): Permission denied
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 30
+App\Controller\HomeController->add() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:25 error: [Laminas\Diactoros\Exception\UploadedFileErrorException] The target directory `/var/www/html/cube/webroot/docs` does not exist or is not writable in /var/www/html/cube/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 33
+Stack Trace:
+- /var/www/html/cube/vendor/laminas/laminas-diactoros/src/UploadedFile.php:147
+- /var/www/html/cube/src/Controller/HomeController.php:33
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:29:25 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:25 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:25 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:25 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:39 warning: mkdir(): Permission denied
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 30
+App\Controller\HomeController->add() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:39 error: [Laminas\Diactoros\Exception\UploadedFileErrorException] The target directory `/var/www/html/cube/webroot/docs` does not exist or is not writable in /var/www/html/cube/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 33
+Stack Trace:
+- /var/www/html/cube/vendor/laminas/laminas-diactoros/src/UploadedFile.php:147
+- /var/www/html/cube/src/Controller/HomeController.php:33
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:29:39 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:39 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:39 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:29:39 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:30:51 warning: mkdir(): Permission denied
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 30
+App\Controller\HomeController->add() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:30:51 error: [Laminas\Diactoros\Exception\UploadedFileErrorException] The target directory `/var/www/html/cube/webroot/docs` does not exist or is not writable in /var/www/html/cube/vendor/laminas/laminas-diactoros/src/Exception/UploadedFileErrorException.php on line 33
+Stack Trace:
+- /var/www/html/cube/vendor/laminas/laminas-diactoros/src/UploadedFile.php:147
+- /var/www/html/cube/src/Controller/HomeController.php:33
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:30:51 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:30:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:30:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:30:51 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-16 06:49:52 error: [Cake\Core\Exception\CakeException] You must set a pagination instance using `setPaginated()` first in /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php on line 150
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:163
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:174
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:409
+- /var/www/html/cube/templates/Home/home.php:13
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:17
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:53:50 error: [ParseError] syntax error, unexpected end of file in /var/www/html/cube/templates/Home/home.php on line 28
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:21
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home
+Referer URL: http://localhost/cube/app/
+2024-05-16 06:57:20 error: [Error] Call to undefined method Cake\View\Helper\TimeHelper::build() in /var/www/html/cube/templates/Home/home.php on line 30
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:21
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home
+Referer URL: http://localhost/cube/app/
+2024-05-16 07:07:15 error: [Cake\Controller\Exception\MissingActionException] Action `HomeController::edit()` could not be found, or is not accessible. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php on line 478
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/edit/1
+Referer URL: http://localhost/cube/home
+2024-05-16 07:07:25 error: [Cake\Controller\Exception\MissingActionException] Action `HomeController::edit()` could not be found, or is not accessible. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php on line 478
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/edit/1
+Referer URL: http://localhost/cube/
+2024-05-16 07:07:29 error: [Cake\Controller\Exception\MissingActionException] Action `HomeController::edit()` could not be found, or is not accessible. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php on line 478
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/edit/1
+Referer URL: http://localhost/cube/
+2024-05-16 07:08:21 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/edit.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/edit.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/edit.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/edit.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/edit/1
+Referer URL: http://localhost/cube/
+2024-05-16 07:25:21 error: [Cake\Controller\Exception\MissingActionException] Action `HomeController::view()` could not be found, or is not accessible. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php on line 478
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/view/1
+Referer URL: http://localhost/cube/
+2024-05-16 07:26:42 error: [ParseError] syntax error, unexpected identifier "Html", expecting "function" or "const" in /var/www/html/cube/src/Controller/HomeController.php on line 67
+Stack Trace:
+- /var/www/html/cube/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Core/App.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Core/App.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:297
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/view/1
+Referer URL: http://localhost/cube/
+2024-05-16 07:47:22 error: [Cake\Controller\Exception\MissingActionException] Action `HomeController::delete()` could not be found, or is not accessible. in /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php on line 478
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'delete',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/2
+Referer URL: http://localhost/cube/home
+2024-05-16 07:58:54 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/delete.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/delete.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/delete.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/delete.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/2
+Referer URL: http://localhost/cube/home
+2024-05-16 11:14:53 error: [TypeError] Cake\View\Helper\TimeHelper::format(): Argument #3 ($invalid) must be of type string|false, null given, called in /var/www/html/cube/templates/Home/home.php on line 31 in /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/TimeHelper.php on line 405
+Stack Trace:
+- /var/www/html/cube/templates/Home/home.php:31
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:21
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost/
+2024-05-16 11:15:23 error: [TypeError] Cake\View\Helper\TimeHelper::format(): Argument #3 ($invalid) must be of type string|false, null given, called in /var/www/html/cube/templates/Home/home.php on line 31 in /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/TimeHelper.php on line 405
+Stack Trace:
+- /var/www/html/cube/templates/Home/home.php:31
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:21
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost/
+2024-05-16 11:16:07 error: [TypeError] Cake\View\Helper\TimeHelper::format(): Argument #3 ($invalid) must be of type string|false, null given, called in /var/www/html/cube/templates/Home/home.php on line 31 in /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/TimeHelper.php on line 405
+Stack Trace:
+- /var/www/html/cube/templates/Home/home.php:31
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/src/Controller/HomeController.php:21
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://localhost/
+2024-05-16 12:06:21 error: [TypeError] Cake\Utility\Text::_strlen(): Argument #1 ($text) must be of type string, bool given, called in /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php on line 655 in /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php on line 700
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php:655
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php:65
+- /var/www/html/cube/templates/Home/view.php:58
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/view/2
+Referer URL: http://localhost/cube/
+2024-05-16 12:06:46 error: [TypeError] Cake\Utility\Text::_strlen(): Argument #1 ($text) must be of type string, bool given, called in /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php on line 655 in /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php on line 700
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Utility/Text.php:655
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php:65
+- /var/www/html/cube/templates/Home/view.php:58
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:785
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/view/2
+Referer URL: http://localhost/cube/
+2024-05-21 11:26:21 error: [Error] Call to a member function getSize() on null in /var/www/html/cube/src/Controller/HomeController.php on line 39
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-21 11:26:28 error: [Error] Call to a member function getSize() on null in /var/www/html/cube/src/Controller/HomeController.php on line 39
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-21 11:28:18 warning: Undefined variable $id
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+App\Controller\HomeController->add() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-21 11:28:18 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table `panel` with primary key `[NULL]`. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php on line 1527
+Stack Trace:
+- /var/www/html/cube/src/Controller/HomeController.php:35
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+2024-05-21 11:28:18 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-21 11:28:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-21 11:28:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-21 11:28:18 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /app/
+Referer URL: http://localhost/cube/app/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:55:43 warning: unlink(/var/www/html/cube/webroot//docs/Screenshot from 2024-05-22 11-19-56.png): No such file or directory
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 122
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:55:43 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE/src/Error/Renderer/HtmlErrorRenderer.php` on line `37` in /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Session.php on line 523
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/FlashMessage.php:123
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:76
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:184
+- /var/www/html/cube/src/Controller/HomeController.php:126
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+2024-05-22 12:55:44 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:55:44 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:55:44 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:55:44 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/3
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 119
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 122
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE/src/Error/Renderer/HtmlErrorRenderer.php` on line `37` in /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Session.php on line 523
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/FlashMessage.php:123
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:76
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:184
+- /var/www/html/cube/src/Controller/HomeController.php:126
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+2024-05-22 12:56:36 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:56:36 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:57:09 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `panel`. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php on line 605
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:1587
+- /var/www/html/cube/src/Controller/HomeController.php:117
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/4
+Referer URL: http://localhost/cube/
+2024-05-22 12:58:26 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 119
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:58:26 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 122
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:58:26 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE/src/Error/Renderer/HtmlErrorRenderer.php` on line `37` in /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Session.php on line 523
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/FlashMessage.php:123
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:76
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:184
+- /var/www/html/cube/src/Controller/HomeController.php:126
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+2024-05-22 12:58:26 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:58:26 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:58:26 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:58:26 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/5
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 119
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 warning: unlink(/var/www/html/cube/webroot/): Is a directory
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/src/Controller/HomeController.php /var/www/html/cube/src/Controller/HomeController.php, line 122
+App\Controller\HomeController->delete() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 error: [Cake\Core\Exception\CakeException] Could not start the session, headers already sent in file `CORE/src/Error/Renderer/HtmlErrorRenderer.php` on line `37` in /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Session.php on line 523
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/FlashMessage.php:123
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:76
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:184
+- /var/www/html/cube/src/Controller/HomeController.php:126
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+2024-05-22 12:59:41 warning: Unable to emit headers. Headers sent in file=/var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 12:59:41 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php, line 139
+Cake\Http\Server->emit() /var/www/html/cube/webroot/index.php, line 37
+[main]
+
+2024-05-22 13:00:05 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `panel`. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php on line 605
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:1587
+- /var/www/html/cube/src/Controller/HomeController.php:117
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+2024-05-22 13:00:27 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `panel`. in /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php on line 605
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/ORM/Table.php:1587
+- /var/www/html/cube/src/Controller/HomeController.php:117
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:498
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/6
+Referer URL: http://localhost/cube/home
+2024-05-22 13:01:25 error: [Cake\View\Exception\MissingTemplateException] Template file `Home/delete.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/Home/delete.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/Home/delete.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'Home/delete.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:782
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /home/delete/7
+Referer URL: http://localhost/cube/home
+2024-05-22 13:03:21 error: [Cake\View\Exception\MissingElementException] Element file `flash/danger.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/cube/templates/element/flash/danger.php`
+- `/var/www/html/cube/vendor/cakephp/cakephp/templates/element/flash/danger.php`
+ in /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php on line 685
+Exception Attributes: array (
+  'file' => 'flash/danger.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/cube/templates/element/',
+    1 => '/var/www/html/cube/vendor/cakephp/cakephp/templates/element/',
+  ),
+)
+Stack Trace:
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/Helper/FlashHelper.php:80
+- /var/www/html/cube/templates/layout/panel.php:15
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1188
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:1145
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:837
+- /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php:796
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Http/Server.php:103
+- /var/www/html/cube/webroot/index.php:37
+- [main]:
+
+Request URL: /app/
+Referer URL: http://localhost/cube/app/

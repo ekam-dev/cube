@@ -1,0 +1,219 @@
+2024-05-16 04:28:57 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 108
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 96
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:96
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+2024-05-16 04:29:35 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 108
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 96
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:96
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+2024-05-16 04:31:32 error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 108
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1698] Access denied for user 'my_app'@'localhost' in /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 96
+Stack Trace:
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:96
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php:158
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:173
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:474
+- /var/www/html/cube/vendor/cakephp/migrations/src/CakeAdapter.php:53
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:83
+- /var/www/html/cube/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php:148
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/Phinx/Create.php:93
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:279
+- /var/www/html/cube/vendor/symfony/console/Application.php:1031
+- /var/www/html/cube/vendor/symfony/console/Application.php:318
+- /var/www/html/cube/vendor/symfony/console/Application.php:169
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+2024-06-07 07:52:28 warning: SplFileInfo::openFile(/var/www/html/cube/tmp/cache/models/myapp_cake_model_default_panel): Failed to open stream: Permission denied
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 162
+Cake\Cache\Engine\FileEngine->get() /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 86
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/cube/vendor/cakephp/migrations/src/View/Helper/MigrationHelper.php, line 160
+Migrations\View\Helper\MigrationHelper->schema() /var/www/html/cube/vendor/cakephp/migrations/src/View/Helper/MigrationHelper.php, line 316
+Migrations\View\Helper\MigrationHelper->hasAutoIdIncompatiblePrimaryKey() /var/www/html/cube/vendor/twig/twig/src/Extension/CoreExtension.php, line 1629
+Twig\Extension\CoreExtension::getAttribute() /var/www/html/cube/vendor/twig/twig/src/Environment.php(392) : eval()'d code, line 47
+__TwigTemplate_273f1c2acbfc0cb23a3d1c80090a322e->doDisplay() /var/www/html/cube/vendor/twig/twig/src/Template.php, line 360
+Twig\Template->yield() /var/www/html/cube/vendor/twig/twig/src/Template.php, line 335
+Twig\Template->render() /var/www/html/cube/vendor/twig/twig/src/TemplateWrapper.php, line 38
+Twig\TemplateWrapper->render() /var/www/html/cube/vendor/cakephp/twig-view/src/View/TwigView.php, line 299
+Cake\TwigView\View\TwigView->_evaluate() /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /var/www/html/cube/vendor/cakephp/bake/src/View/BakeView.php, line 91
+Bake\View\BakeView->render() /var/www/html/cube/vendor/cakephp/bake/src/Utility/TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeSimpleMigrationCommand.php, line 129
+Migrations\Command\BakeSimpleMigrationCommand->bake() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeMigrationSnapshotCommand.php, line 69
+Migrations\Command\BakeMigrationSnapshotCommand->bake() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeSimpleMigrationCommand.php, line 92
+Migrations\Command\BakeSimpleMigrationCommand->execute() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 192
+Cake\Console\BaseCommand->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 327
+Cake\Console\CommandRunner->runCommand() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() /var/www/html/cube/bin/cake.php, line 10
+[main]
+
+2024-06-07 07:52:28 warning: SplFileInfo::openFile(/var/www/html/cube/tmp/cache/models/myapp_cake_model_default_panel): Failed to open stream: Permission denied
+Trace:
+/var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 387
+Cake\Cache\Engine\FileEngine->_setKey() /var/www/html/cube/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 122
+Cake\Cache\Engine\FileEngine->set() /var/www/html/cube/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php, line 93
+Cake\Database\Schema\CachedCollection->describe() /var/www/html/cube/vendor/cakephp/migrations/src/View/Helper/MigrationHelper.php, line 160
+Migrations\View\Helper\MigrationHelper->schema() /var/www/html/cube/vendor/cakephp/migrations/src/View/Helper/MigrationHelper.php, line 316
+Migrations\View\Helper\MigrationHelper->hasAutoIdIncompatiblePrimaryKey() /var/www/html/cube/vendor/twig/twig/src/Extension/CoreExtension.php, line 1629
+Twig\Extension\CoreExtension::getAttribute() /var/www/html/cube/vendor/twig/twig/src/Environment.php(392) : eval()'d code, line 47
+__TwigTemplate_273f1c2acbfc0cb23a3d1c80090a322e->doDisplay() /var/www/html/cube/vendor/twig/twig/src/Template.php, line 360
+Twig\Template->yield() /var/www/html/cube/vendor/twig/twig/src/Template.php, line 335
+Twig\Template->render() /var/www/html/cube/vendor/twig/twig/src/TemplateWrapper.php, line 38
+Twig\TemplateWrapper->render() /var/www/html/cube/vendor/cakephp/twig-view/src/View/TwigView.php, line 299
+Cake\TwigView\View\TwigView->_evaluate() /var/www/html/cube/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /var/www/html/cube/vendor/cakephp/bake/src/View/BakeView.php, line 91
+Bake\View\BakeView->render() /var/www/html/cube/vendor/cakephp/bake/src/Utility/TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeSimpleMigrationCommand.php, line 129
+Migrations\Command\BakeSimpleMigrationCommand->bake() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeMigrationSnapshotCommand.php, line 69
+Migrations\Command\BakeMigrationSnapshotCommand->bake() /var/www/html/cube/vendor/cakephp/migrations/src/Command/BakeSimpleMigrationCommand.php, line 92
+Migrations\Command\BakeSimpleMigrationCommand->execute() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 192
+Cake\Console\BaseCommand->run() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 327
+Cake\Console\CommandRunner->runCommand() /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() /var/www/html/cube/bin/cake.php, line 10
+[main]
+
+2024-06-13 05:04:12 error: [Symfony\Component\Console\Exception\RuntimeException] No arguments expected for "migrate" command, got "name". in /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php on line 196
+Stack Trace:
+- /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php:89
+- /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php:74
+- /var/www/html/cube/vendor/symfony/console/Input/Input.php:56
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:285
+- /var/www/html/cube/vendor/symfony/console/Application.php:1078
+- /var/www/html/cube/vendor/symfony/console/Application.php:324
+- /var/www/html/cube/vendor/symfony/console/Application.php:175
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
+2024-06-13 05:04:30 error: [Symfony\Component\Console\Exception\RuntimeException] No arguments expected for "migrate" command, got "name". in /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php on line 196
+Stack Trace:
+- /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php:89
+- /var/www/html/cube/vendor/symfony/console/Input/ArgvInput.php:74
+- /var/www/html/cube/vendor/symfony/console/Input/Input.php:56
+- /var/www/html/cube/vendor/symfony/console/Command/Command.php:285
+- /var/www/html/cube/vendor/symfony/console/Application.php:1078
+- /var/www/html/cube/vendor/symfony/console/Application.php:324
+- /var/www/html/cube/vendor/symfony/console/Application.php:175
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:131
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /var/www/html/cube/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:203
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /var/www/html/cube/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /var/www/html/cube/bin/cake.php:10
+- [main]:
+
